@@ -1,0 +1,9 @@
+{
+  "name": "discord-markdown-test",
+  "packageManager": "yarn@1.22.22",
+  "dependencies": {
+    "@odiffey/discord-markdown": "^3.3.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}
