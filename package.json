@@ -3,6 +3,7 @@
   "packageManager": "yarn@1.22.22",
   "dependencies": {
     "@odiffey/discord-markdown": "^3.3.0",
+    "dotenv": "^16.4.7",
     "ejs": "^3.1.10",
     "express": "^4.21.2"
   }
