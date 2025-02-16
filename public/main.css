@@ -31,7 +31,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
+    height: fit-content;
     background-color: #333;
     color: #fff;
     gap: 2rem;
@@ -39,7 +40,7 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
-div.result {
+.result {
     display: block;
     white-space: break-spaces;
     text-indent: 0;
@@ -47,9 +48,11 @@ div.result {
     line-height: 1.5;
     vertical-align: baseline;
     border: 0;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     width: 50%;
     height: 100%;
+    max-height: 100%;
     background-color: #444;
     color: #fff;
     padding: 1rem;
@@ -59,6 +62,7 @@ div.result {
 .editor {
     width: 50%;
     height: 100%;
+    max-height: 100%;
     padding: 1rem;
     background-color: #444;
     color: #fff;
@@ -76,8 +80,8 @@ div.result {
     align-items: center;
     flex-direction: row;
     gap: 2rem;
-    height: 100%;
     width: 100%;
+    height: 32rem;
 }
 
 .col {
@@ -97,10 +101,15 @@ div.result {
 @media screen and (max-width: 768px) {
     .row {
         flex-direction: column;
+        height: fit-content;
     }
 
     .editor, .result {
         width: 100% !important;
+    }
+
+    .editor {
+        height: fit-content;
     }
 
     .col {

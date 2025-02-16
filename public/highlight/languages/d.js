@@ -6,7 +6,7 @@
   /*
   Language: D
   Author: Aleksandar Ruzicic <aleksandar@ruzicic.info>
-  Description: D is a language with C-like syntax and static typing. It pragmatically combines efficiency, control, and modeling power, with safety and programmer productivity.
+  Description: D is a language with C-like syntax and public typing. It pragmatically combines efficiency, control, and modeling power, with safety and programmer productivity.
   Version: 1.0a
   Website: https://dlang.org
   Category: system
@@ -43,7 +43,7 @@
         + 'const continue debug default delete deprecated do else enum export extern final '
         + 'finally for foreach foreach_reverse|10 goto if immutable import in inout int '
         + 'interface invariant is lazy macro mixin module new nothrow out override package '
-        + 'pragma private protected public pure ref return scope shared static struct '
+        + 'pragma private protected public pure ref return scope shared public struct '
         + 'super switch synchronized template this throw try typedef typeid typeof union '
         + 'unittest version void volatile while with __FILE__ __LINE__ __gshared|10 '
         + '__thread __traits __DATE__ __EOF__ __TIME__ __TIMESTAMP__ __VENDOR__ __VERSION__',

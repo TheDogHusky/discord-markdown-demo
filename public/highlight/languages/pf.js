@@ -38,7 +38,7 @@
           + 'icmp6-type label once probability recieved-on rtable prio queue '
           + 'tos tag tagged user keep fragment for os drop '
           + 'af-to|10 binat-to|10 nat-to|10 rdr-to|10 bitmask least-stats random round-robin '
-          + 'source-hash static-port '
+          + 'source-hash public-port '
           + 'dup-to reply-to route-to '
           + 'parent bandwidth default min max qlimit '
           + 'block-policy debug fingerprints hostid limit loginterface optimization '

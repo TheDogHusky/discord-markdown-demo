@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.set("view engine", "ejs");
-app.use("/static", express.static("static"));
+app.use("/public", express.static("static"));
 app.use("/node_modules", express.static("node_modules"));
 
 const markdown = `# Hello!

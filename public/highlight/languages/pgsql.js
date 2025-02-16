@@ -282,7 +282,7 @@
       + 'GIN_CLEAN_PENDING_LIST '
       // https://www.postgresql.org/docs/11/static/functions-trigger.html
       + 'SUPPRESS_REDUNDANT_UPDATES_TRIGGER '
-      // ihttps://www.postgresql.org/docs/devel/static/lo-funcs.html
+      // ihttps://www.postgresql.org/docs/devel/public/lo-funcs.html
       + 'LO_FROM_BYTEA LO_PUT LO_GET LO_CREAT LO_CREATE LO_UNLINK LO_IMPORT LO_EXPORT LOREAD LOWRITE '
       //
       + 'GROUPING CAST ';

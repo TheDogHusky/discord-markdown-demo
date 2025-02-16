@@ -31,7 +31,7 @@
       // classes and objects
       'namespace class interface use extends '
       + 'function return '
-      + 'abstract final public protected private static deprecated '
+      + 'abstract final public protected private public deprecated '
       // error handling
       + 'throw try catch Exception '
       // keyword-ish things their website does NOT seem to highlight (in their own snippets)

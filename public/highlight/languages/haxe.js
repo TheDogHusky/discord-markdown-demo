@@ -26,7 +26,7 @@
       keywords: {
         keyword: 'abstract break case cast catch continue default do dynamic else enum extern '
                  + 'final for function here if import in inline is macro never new override package private get set '
-                 + 'public return static super switch this throw trace try typedef untyped using var while '
+                 + 'public return public super switch this throw trace try typedef untyped using var while '
                  + HAXE_BASIC_TYPES,
         built_in:
           'trace this',

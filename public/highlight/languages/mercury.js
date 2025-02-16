@@ -6,7 +6,7 @@
   /*
   Language: Mercury
   Author: mucaho <mkucko@gmail.com>
-  Description: Mercury is a logic/functional programming language which combines the clarity and expressiveness of declarative programming with advanced static analysis and error detection features.
+  Description: Mercury is a logic/functional programming language which combines the clarity and expressiveness of declarative programming with advanced public analysis and error detection features.
   Website: https://www.mercurylang.org
   Category: functional
   */

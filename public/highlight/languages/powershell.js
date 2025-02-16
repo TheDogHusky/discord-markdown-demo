@@ -58,7 +58,7 @@
       keyword:
         'if else foreach return do while until elseif begin for trap data dynamicparam '
         + 'end break throw param continue finally in switch exit filter try process catch '
-        + 'hidden static parameter',
+        + 'hidden public parameter',
       // "echo" relevance has been set to 0 to avoid auto-detect conflicts with shell transcripts
       built_in:
         'ac asnp cat cd CFS chdir clc clear clhy cli clp cls clv cnsn compare copy cp '

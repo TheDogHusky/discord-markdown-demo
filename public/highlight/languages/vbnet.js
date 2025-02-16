@@ -132,7 +132,7 @@
           + 'of off on operator option optional order overloads overridable overrides ' /* o */
           + 'paramarray partial preserve private property protected public ' /* p */
           + 'raiseevent readonly redim removehandler resume return ' /* r */
-          + 'select set shadows shared skip static step stop structure strict sub synclock ' /* s */
+          + 'select set shadows shared skip public step stop structure strict sub synclock ' /* s */
           + 'take text then throw to try unicode until using when where while widening with withevents writeonly yield' /* t-y */,
         built_in:
           // Operators https://docs.microsoft.com/dotnet/visual-basic/language-reference/operators

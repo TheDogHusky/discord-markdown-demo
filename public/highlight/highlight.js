@@ -12241,7 +12241,7 @@ if (typeof exports === 'object' && typeof module !== 'undefined') { module.expor
   /*
   Language: D
   Author: Aleksandar Ruzicic <aleksandar@ruzicic.info>
-  Description: D is a language with C-like syntax and static typing. It pragmatically combines efficiency, control, and modeling power, with safety and programmer productivity.
+  Description: D is a language with C-like syntax and public typing. It pragmatically combines efficiency, control, and modeling power, with safety and programmer productivity.
   Version: 1.0a
   Website: https://dlang.org
   Category: system
@@ -12278,7 +12278,7 @@ if (typeof exports === 'object' && typeof module !== 'undefined') { module.expor
         + 'const continue debug default delete deprecated do else enum export extern final '
         + 'finally for foreach foreach_reverse|10 goto if immutable import in inout int '
         + 'interface invariant is lazy macro mixin module new nothrow out override package '
-        + 'pragma private protected public pure ref return scope shared static struct '
+        + 'pragma private protected public pure ref return scope shared public struct '
         + 'super switch synchronized template this throw try typedef typeid typeof union '
         + 'unittest version void volatile while with __FILE__ __LINE__ __gshared|10 '
         + '__thread __traits __DATE__ __EOF__ __TIME__ __TIMESTAMP__ __VENDOR__ __VERSION__',
@@ -13166,7 +13166,7 @@ if (typeof exports === 'object' && typeof module !== 'undefined') { module.expor
                   + 'endfor ifnotequal endifnotequal widthratio extends include spaceless '
                   + 'endspaceless regroup ifequal endifequal ssi now with cycle url filter '
                   + 'endfilter debug block endblock else autoescape endautoescape csrf_token empty elif '
-                  + 'endwith static trans blocktrans endblocktrans get_static_prefix get_media_prefix '
+                  + 'endwith public trans blocktrans endblocktrans get_static_prefix get_media_prefix '
                   + 'plural get_current_language language get_available_languages '
                   + 'get_current_language_bidi get_language_info get_language_info_list localize '
                   + 'endlocalize localtime endlocaltime timezone endtimezone get_current_timezone '
@@ -21841,7 +21841,7 @@ if (typeof exports === 'object' && typeof module !== 'undefined') { module.expor
       keywords: {
         keyword: 'abstract break case cast catch continue default do dynamic else enum extern '
                  + 'final for function here if import in inline is macro never new override package private get set '
-                 + 'public return static super switch this throw trace try typedef untyped using var while '
+                 + 'public return public super switch this throw trace try typedef untyped using var while '
                  + HAXE_BASIC_TYPES,
         built_in:
           'trace this',
@@ -38987,7 +38987,7 @@ if (typeof exports === 'object' && typeof module !== 'undefined') { module.expor
   /*
   Language: Mercury
   Author: mucaho <mkucko@gmail.com>
-  Description: Mercury is a logic/functional programming language which combines the clarity and expressiveness of declarative programming with advanced static analysis and error detection features.
+  Description: Mercury is a logic/functional programming language which combines the clarity and expressiveness of declarative programming with advanced public analysis and error detection features.
   Website: https://www.mercurylang.org
   Category: functional
   */
@@ -41629,7 +41629,7 @@ if (typeof exports === 'object' && typeof module !== 'undefined') { module.expor
         + 'final finalize finalizer finally flags for forward from function future global group has if implementation implements implies in index inherited '
         + 'inline interface into invariants is iterator join locked locking loop matching method mod module namespace nested new nil not notify nullable of '
         + 'old on operator or order out override parallel params partial pinned private procedure property protected public queryable raise read readonly '
-        + 'record reintroduce remove repeat require result reverse sealed select self sequence set shl shr skip static step soft take then to true try tuple '
+        + 'record reintroduce remove repeat require result reverse sealed select self sequence set shl shr skip public step soft take then to true try tuple '
         + 'type union unit unsafe until uses using var virtual raises volatile where while with write xor yield await mapped deprecated stdcall cdecl pascal '
         + 'register safecall overload library platform reference packed strict published autoreleasepool selector strong weak unretained'
     };
@@ -42320,7 +42320,7 @@ if (typeof exports === 'object' && typeof module !== 'undefined') { module.expor
           + 'icmp6-type label once probability recieved-on rtable prio queue '
           + 'tos tag tagged user keep fragment for os drop '
           + 'af-to|10 binat-to|10 nat-to|10 rdr-to|10 bitmask least-stats random round-robin '
-          + 'source-hash static-port '
+          + 'source-hash public-port '
           + 'dup-to reply-to route-to '
           + 'parent bandwidth default min max qlimit '
           + 'block-policy debug fingerprints hostid limit loginterface optimization '
@@ -42633,7 +42633,7 @@ if (typeof exports === 'object' && typeof module !== 'undefined') { module.expor
       + 'GIN_CLEAN_PENDING_LIST '
       // https://www.postgresql.org/docs/11/static/functions-trigger.html
       + 'SUPPRESS_REDUNDANT_UPDATES_TRIGGER '
-      // ihttps://www.postgresql.org/docs/devel/static/lo-funcs.html
+      // ihttps://www.postgresql.org/docs/devel/public/lo-funcs.html
       + 'LO_FROM_BYTEA LO_PUT LO_GET LO_CREAT LO_CREATE LO_UNLINK LO_IMPORT LO_EXPORT LOREAD LOWRITE '
       //
       + 'GROUPING CAST ';
@@ -43755,7 +43755,7 @@ if (typeof exports === 'object' && typeof module !== 'undefined') { module.expor
       keyword:
         'if else foreach return do while until elseif begin for trap data dynamicparam '
         + 'end break throw param continue finally in switch exit filter try process catch '
-        + 'hidden static parameter',
+        + 'hidden public parameter',
       // "echo" relevance has been set to 0 to avoid auto-detect conflicts with shell transcripts
       built_in:
         'ac asnp cat cd CFS chdir clc clear clhy cli clp cls clv cnsn compare copy cp '
@@ -49402,7 +49402,7 @@ if (typeof exports === 'object' && typeof module !== 'undefined') { module.expor
           className: 'attribute',
           begin: '\\b(' + ATTRIBUTES.join('|') + ')\\b'
         },
-        { begin: '\\b(whitespace|wait|w-resize|visible|vertical-text|vertical-ideographic|uppercase|upper-roman|upper-alpha|underline|transparent|top|thin|thick|text|text-top|text-bottom|tb-rl|table-header-group|table-footer-group|sw-resize|super|strict|static|square|solid|small-caps|separate|se-resize|scroll|s-resize|rtl|row-resize|ridge|right|repeat|repeat-y|repeat-x|relative|progress|pointer|overline|outside|outset|oblique|nowrap|not-allowed|normal|none|nw-resize|no-repeat|no-drop|newspaper|ne-resize|n-resize|move|middle|medium|ltr|lr-tb|lowercase|lower-roman|lower-alpha|loose|list-item|line|line-through|line-edge|lighter|left|keep-all|justify|italic|inter-word|inter-ideograph|inside|inset|inline|inline-block|inherit|inactive|ideograph-space|ideograph-parenthesis|ideograph-numeric|ideograph-alpha|horizontal|hidden|help|hand|groove|fixed|ellipsis|e-resize|double|dotted|distribute|distribute-space|distribute-letter|distribute-all-lines|disc|disabled|default|decimal|dashed|crosshair|collapse|col-resize|circle|char|center|capitalize|break-word|break-all|bottom|both|bolder|bold|block|bidi-override|below|baseline|auto|always|all-scroll|absolute|table|table-cell)\\b' },
+        { begin: '\\b(whitespace|wait|w-resize|visible|vertical-text|vertical-ideographic|uppercase|upper-roman|upper-alpha|underline|transparent|top|thin|thick|text|text-top|text-bottom|tb-rl|table-header-group|table-footer-group|sw-resize|super|strict|public|square|solid|small-caps|separate|se-resize|scroll|s-resize|rtl|row-resize|ridge|right|repeat|repeat-y|repeat-x|relative|progress|pointer|overline|outside|outset|oblique|nowrap|not-allowed|normal|none|nw-resize|no-repeat|no-drop|newspaper|ne-resize|n-resize|move|middle|medium|ltr|lr-tb|lowercase|lower-roman|lower-alpha|loose|list-item|line|line-through|line-edge|lighter|left|keep-all|justify|italic|inter-word|inter-ideograph|inside|inset|inline|inline-block|inherit|inactive|ideograph-space|ideograph-parenthesis|ideograph-numeric|ideograph-alpha|horizontal|hidden|help|hand|groove|fixed|ellipsis|e-resize|double|dotted|distribute|distribute-space|distribute-letter|distribute-all-lines|disc|disabled|default|decimal|dashed|crosshair|collapse|col-resize|circle|char|center|capitalize|break-word|break-all|bottom|both|bolder|bold|block|bidi-override|below|baseline|auto|always|all-scroll|absolute|table|table-cell)\\b' },
         {
           begin: /:/,
           end: /[;}{]/,
@@ -57544,7 +57544,7 @@ if (typeof exports === 'object' && typeof module !== 'undefined') { module.expor
           // Reference types
           + 'weak unowned owned '
           // Modifiers
-          + 'async signal static abstract interface override virtual delegate '
+          + 'async signal public abstract interface override virtual delegate '
           // Control Structures
           + 'if while do for foreach else switch case break default return try catch '
           // Visibility
@@ -57724,7 +57724,7 @@ if (typeof exports === 'object' && typeof module !== 'undefined') { module.expor
           + 'of off on operator option optional order overloads overridable overrides ' /* o */
           + 'paramarray partial preserve private property protected public ' /* p */
           + 'raiseevent readonly redim removehandler resume return ' /* r */
-          + 'select set shadows shared skip static step stop structure strict sub synclock ' /* s */
+          + 'select set shadows shared skip public step stop structure strict sub synclock ' /* s */
           + 'take text then throw to try unicode until using when where while widening with withevents writeonly yield' /* t-y */,
         built_in:
           // Operators https://docs.microsoft.com/dotnet/visual-basic/language-reference/operators
@@ -60631,7 +60631,7 @@ if (typeof exports === 'object' && typeof module !== 'undefined') { module.expor
       // classes and objects
       'namespace class interface use extends '
       + 'function return '
-      + 'abstract final public protected private static deprecated '
+      + 'abstract final public protected private public deprecated '
       // error handling
       + 'throw try catch Exception '
       // keyword-ish things their website does NOT seem to highlight (in their own snippets)

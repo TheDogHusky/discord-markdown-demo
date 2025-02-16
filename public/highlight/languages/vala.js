@@ -22,7 +22,7 @@
           // Reference types
           + 'weak unowned owned '
           // Modifiers
-          + 'async signal static abstract interface override virtual delegate '
+          + 'async signal public abstract interface override virtual delegate '
           // Control Structures
           + 'if while do for foreach else switch case break default return try catch '
           // Visibility
